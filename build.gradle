@@ -51,6 +51,6 @@ tasks.withType(JavaCompile) {
 }
 
 jar {
-    archiveBaseName = 'AVS'
+    archiveBaseName = 'AVS-T'
     archiveVersion =  '1.0.0'
 }
