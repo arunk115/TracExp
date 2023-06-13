@@ -1,10 +1,10 @@
 package com.func.core.module.service.core;
 
-import com.func.core.module.request.UserRequest;
-import com.func.core.module.response.UserResponse;
+import com.func.core.module.request.UserAddRequest;
+import com.func.core.module.response.Response;
 
 public interface UserService {
 	
-	UserResponse addUser(UserRequest userRequest);
+	Response addUser(UserAddRequest userRequest);
 	
 }

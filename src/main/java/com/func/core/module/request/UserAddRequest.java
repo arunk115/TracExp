@@ -9,7 +9,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class UserRequest {
+public class UserAddRequest {
 	
 	private Integer id;
 	
@@ -22,7 +22,6 @@ public class UserRequest {
 	@NotNull
 	private String password;
 	
-	@NotNull
 	private Status status;
 
 }
